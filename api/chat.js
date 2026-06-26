@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      model: "gpt-5.5",
+      model: "gpt-4.1-mini",
       input: `You are K-Water Guard AI. Answer questions about Korean water quality dashboard data clearly for public users.\n\nQuestion: ${question}`
     })
   });
